@@ -1,0 +1,65 @@
+/* Content
+colors:
+background-color:#cdbef6
+
+card-color: #b7a5fc
+shadow-color: pink
+font: helvetica
+ */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Background */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-color: #cdbef6;
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+/* Card */
+.card-1 {
+    background-color: #b7a5fc;
+    backdrop-filter: saturate(180%) blur(10px);
+    width: 320px;
+    height: 380px;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 2px 2px 50px 2px pink inset;
+}
+
+/* button allow */
+.allow-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #8c75b3;
+    margin: 15px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+/* button decline */
+.decline-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #848484;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
